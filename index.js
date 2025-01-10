@@ -13,7 +13,6 @@ function moveDodgerRight() {
     const leftNumbers = dodger.style.left.replace("px", "");
     const left = parseInt(leftNumbers, 10);
   
-    // The game field is 400px wide, and the dodger is 40px wide
     if (left < 360) {
       dodger.style.left = `${left + 1}px`;
     }
